@@ -36,4 +36,7 @@ environment variable.
 DOCKER_API_VERSION=$(docker version --format="{{ .Server.ApiVersion }}")
 
 docker run -it -e DOCKER_API_VERSION=$DOCKER_API_VERSION -v /var/run/docker.sock:/var/run/docker.sock docker-client-debian
+
+# run docker commands!
+root@3932908134:/# docker ps
 ```
