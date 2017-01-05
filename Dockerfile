@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:jessie
 MAINTAINER '<unenglishable@gmail.com>'
 
 RUN apt-get update && apt-get install -y curl
